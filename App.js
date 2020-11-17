@@ -6,30 +6,10 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { HomeIcon, NotificationsIcon, PersonIcon } from "@material-ui/core";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
-//from https://reactnavigation.org/docs/tab-based-navigation/
-function Feed() {
-  return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>Feed!</Text>
-    </View>
-  );
-}
-
-function Profile() {
-  return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>Profile!</Text>
-    </View>
-  );
-}
-
-function Notifications() {
-  return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>Notifications!</Text>
-    </View>
-  );
-}
+import Explore from "./components/Explore";
+import Feed from "./components/Feed";
+import Notifications from "./components/Notifications";
+import Profile from "./components/Profile";
 
 const Tab = createBottomTabNavigator();
 
@@ -38,7 +18,7 @@ function MyTabs() {
     <Tab.Navigator
       initialRouteName="Feed"
       tabBarOptions={{
-        activeTintColor: "#e91e63",
+        activeTintColor: "red",
       }}
     >
       <Tab.Screen
@@ -52,10 +32,20 @@ function MyTabs() {
         }}
       />
       <Tab.Screen
+        name="Explore"
+        component={Explore}
+        options={{
+          tabBarLabel: "Explore",
+          tabBarIcon: ({ color, size }) => (
+            <MaterialCommunityIcons name="account" color={color} size={size} />
+          ),
+        }}
+      />
+      <Tab.Screen
         name="Notifications"
         component={Notifications}
         options={{
-          tabBarLabel: "Updates",
+          tabBarLabel: "Notifications",
           tabBarIcon: ({ color, size }) => (
             <MaterialCommunityIcons name="bell" color={color} size={size} />
           ),
