@@ -29,9 +29,20 @@ const styles = StyleSheet.create({
   },
   captions: {
     fontFamily: "AppleSDGothicNeo-Light",
-    paddingLeft: 20,
-    paddingRight: 20,
+    textAlign: "center",
+    paddingLeft: 5,
+    paddingRight: 5,
     paddingTop: 3,
+    paddingBottom: 3,
+  },
+  comments: {
+    fontFamily: "AppleSDGothicNeo-Light",
+    color: "grey",
+    paddingLeft: 15,
+    height: 30,
+    borderWidth: 1,
+    borderRadius: 15,
+    borderColor: "lightgrey",
   }
 });
 
