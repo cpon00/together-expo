@@ -35,6 +35,23 @@ const styles = StyleSheet.create({
     paddingTop: 3,
     paddingBottom: 3,
   },
+
+  topNavigationBar: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 10,
+    marginHorizontal: 16,
+
+  },
+  communities: {
+    width: 180,
+    height: 220,
+    borderWidth: 2,
+    borderColor: "red",
+    resizeMode: "contain",
+    margin: 4,
+  },
+
   comments: {
     fontFamily: "AppleSDGothicNeo-Light",
     color: "grey",
@@ -42,7 +59,7 @@ const styles = StyleSheet.create({
     height: 30,
     borderWidth: 1,
     borderRadius: 15,
-    borderColor: "lightgrey",
+    borderColor: "lightgrey"
   }
 });
 

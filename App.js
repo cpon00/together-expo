@@ -1,10 +1,11 @@
 import "react-native-gesture-handler";
 import React from "react";
-import { StyleSheet, View, Text } from "react-native";
+import { StyleSheet, View, Text, SafeAreaView, Image, ScrollView } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { HomeIcon, NotificationsIcon, PersonIcon } from "@material-ui/core";
-import { MaterialCommunityIcons } from "@expo/vector-icons";
+import { MaterialCommunityIcons, Iconicons, MaterialIcons } from "@expo/vector-icons";
+
 
 import Explore from "./components/Explore";
 import Feed from "./components/Feed";
