@@ -19,7 +19,7 @@ function MyTabs() {
     <Tab.Navigator
       initialRouteName="Feed"
       tabBarOptions={{
-        activeTintColor: "red",
+        activeTintColor: "#F4976C",
       }}
     >
       <Tab.Screen
