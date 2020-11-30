@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { StyleSheet, Text, View, SafeAreaView, Image, ScrollView, FlatList } from "react-native";
+import { StyleSheet, Text, View, SafeAreaView, Image, ScrollView, FlatList, Pressable } from "react-native";
 import { Ionicons, MaterialIcons } from "@expo/vector-icons";
 import styles from './styles'
 import SearchBar from './SearchBar'
 //import TopNavigationBar from './TopNavigationBar'
-
+//https://reactnative.dev/docs/pressable
+//https://reactnativeelements.com/docs/searchbar/
 
 const Explore = props => {
 
@@ -25,11 +26,14 @@ const Explore = props => {
         key={"2"}
         numColumns={2}
         renderItem={({ item }) => (
-          <Image
+          <Pressable onPress={() => alert('Not Yet Implemented')}>
+            <Image
             source={item}
             style={styles.communities}
             keyExtractor={(item) => item.id}
           />
+          </Pressable>
+          
         )}
       />
     </SafeAreaView>
