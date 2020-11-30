@@ -15,16 +15,17 @@ const Feed = props => {
             <Image source={require('../assets/coders.jpg')} style={styles.posts} />
           </TouchableOpacity>
         </View>
-
         <Text style={styles.captions}>Just started a new job at Google as a Data Scientist! Here's how I did it... #programmer</Text >
         <Comments />
       </Card>
       <Card borderRadius={15}>
         <Text style={styles.username}>@guitarguy</Text>
-        <Image source={require('../assets/guitar.jpg')} style={styles.posts} />
+        <TouchableOpacity onPress={() => alert('Not Yet Implemented')}>
+          <Image source={require('../assets/guitar.jpg')} style={styles.posts} />
+        </TouchableOpacity>
         <Text style={styles.captions}>caption 2</Text>
       </Card>
-    </View>
+    </View >
   )
 }
 
