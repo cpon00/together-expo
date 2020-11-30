@@ -39,11 +39,11 @@ function MyTabs() {
         options={{
           tabBarLabel: "Explore",
           tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="account" color={color} size={size} />
+            <MaterialCommunityIcons name="magnify" color={color} size={size} />
           ),
         }}
       />
-      <Tab.Screen
+      {/* <Tab.Screen
         name="Notifications"
         component={Notifications}
         options={{
@@ -52,7 +52,7 @@ function MyTabs() {
             <MaterialCommunityIcons name="bell" color={color} size={size} />
           ),
         }}
-      />
+      /> */}
       <Tab.Screen
         name="Profile"
         component={Profile}
@@ -68,7 +68,7 @@ function MyTabs() {
         component={Create}
         options={{
           tabBarLabel: "Create",
-          tabBarIcon: ({color, size}) => (
+          tabBarIcon: ({ color, size }) => (
             <MaterialCommunityIcons name="plus-circle" color={color} size={size} />
           ),
 
