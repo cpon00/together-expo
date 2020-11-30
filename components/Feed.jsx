@@ -1,14 +1,11 @@
-<<<<<<< HEAD
 import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
-=======
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
 import { Card } from 'react-native-elements'
-import { View, Text, Image, Button } from 'react-native'
->>>>>>> 4cdc1971c8ebabb7dd9b4381f799e8d79d68d572
+import { Image, Button } from 'react-native'
 import styles from './styles'
 import Comments from "./Comments";
-import FavoriteBorderOutlinedIcon from '@material-ui/icons/FavoriteBorderOutlined';
+//import FavoriteBorderOutlinedIcon from '@material-ui/icons/FavoriteBorderOutlined';
 // import { Icon } from '@material-ui/core';
 // import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 

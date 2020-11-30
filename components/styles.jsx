@@ -5,7 +5,8 @@ const styles = StyleSheet.create({
     flex: 1
   },
   content: {
-    backgroundColor: "#fff9d6",
+    // backgroundColor: "#fff9d6",
+    backgroundColor: "white",
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
@@ -18,17 +19,17 @@ const styles = StyleSheet.create({
   },
   username: {
     fontWeight: "bold",
-    fontFamily: "AppleSDGothicNeo-Light",
+    fontFamily: "HelveticaNeue",
     textAlign: "center",
     paddingBottom: 3,
   },
   title: {
-    fontFamily: "AppleSDGothicNeo-Light",
+    fontFamily: "HelveticaNeue",
     fontSize: 20,
     letterSpacing: 6,
   },
   captions: {
-    fontFamily: "AppleSDGothicNeo-Light",
+    fontFamily: "HelveticaNeue",
     textAlign: "center",
     paddingLeft: 5,
     paddingRight: 5,
@@ -53,7 +54,7 @@ const styles = StyleSheet.create({
   },
 
   comments: {
-    fontFamily: "AppleSDGothicNeo-Light",
+    fontFamily: "HelveticaNeue",
     color: "grey",
     paddingLeft: 15,
     height: 30,
