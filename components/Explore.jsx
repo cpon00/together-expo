@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, View, SafeAreaView, Image, ScrollView, FlatList } from "react-native";
 import { Ionicons, MaterialIcons } from "@expo/vector-icons";
 import styles from './styles'
+import SearchBar from './SearchBar'
 //import TopNavigationBar from './TopNavigationBar'
+
 
 const Explore = props => {
 
@@ -10,12 +12,14 @@ const Explore = props => {
     require('../assets/coding.png'),
     require('../assets/pottery.png'),
     require('../assets/rollerskating.png'),
-    require('../assets/violin.png')
+    require('../assets/violin.png'),
+    require('../assets/guitar.jpg'),
+    require('../assets/coders.jpg')
   ]);
 
   return (
     <SafeAreaView>
-      {/* <TopNavigationBar /> */}
+      <SearchBar/>
       <FlatList
         data={communities}
         key={"2"}
