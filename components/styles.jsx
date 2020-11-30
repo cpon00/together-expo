@@ -19,17 +19,17 @@ const styles = StyleSheet.create({
   },
   username: {
     fontWeight: "bold",
-    fontFamily: "HelveticaNeue",
+    fontFamily: "HelveticaNeue-Light",
     textAlign: "center",
     paddingBottom: 3,
   },
   title: {
-    fontFamily: "HelveticaNeue",
+    fontFamily: "HelveticaNeue-Light",
     fontSize: 20,
     letterSpacing: 6,
   },
   captions: {
-    fontFamily: "HelveticaNeue",
+    fontFamily: "HelveticaNeue-Light",
     textAlign: "center",
     paddingLeft: 5,
     paddingRight: 5,
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
   },
 
   comments: {
-    fontFamily: "HelveticaNeue",
+    fontFamily: "HelveticaNeue-Light",
     color: "grey",
     paddingLeft: 15,
     height: 30,
