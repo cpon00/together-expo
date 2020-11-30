@@ -3,6 +3,9 @@ import { View, Text, StyleSheet } from 'react-native'
 // import React, { Component } from 'react'
 import { Card } from 'react-native-elements'
 import { Image, Button } from 'react-native'
+import { View, Text, StyleSheet, Image, Button } from 'react-native'
+import { Component } from 'react'
+import { Card } from 'react-native-elements'
 import styles from './styles'
 import Comments from "./Comments";
 //import FavoriteBorderOutlinedIcon from '@material-ui/icons/FavoriteBorderOutlined';

@@ -11,6 +11,7 @@ import Explore from "./components/Explore";
 import Feed from "./components/Feed";
 import Notifications from "./components/Notifications";
 import Profile from "./components/Profile";
+import Create from "./components/Create";
 
 const Tab = createBottomTabNavigator();
 
@@ -61,6 +62,19 @@ function MyTabs() {
             <MaterialCommunityIcons name="account" color={color} size={size} />
           ),
         }}
+      />
+      <Tab.Screen
+        name="Create"
+        component={Create}
+        options={{
+          tabBarLabel: "Create",
+          tabBarIcon: ({color, size}) => (
+            <MaterialCommunityIcons name="plus-circle" color={color} size={size} />
+          ),
+
+        }
+
+        }
       />
     </Tab.Navigator>
   );
