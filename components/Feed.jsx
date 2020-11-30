@@ -1,19 +1,8 @@
 import React from 'react'
-import { View, Text, StyleSheet } from 'react-native'
-// import React, { Component } from 'react'
-import { Card } from 'react-native-elements'
-import { Image, Button } from 'react-native'
-import { View, Text, StyleSheet, Image, Button } from 'react-native'
-import { Component } from 'react'
+import { View, Text, Image } from 'react-native'
 import { Card } from 'react-native-elements'
 import styles from './styles'
 import Comments from "./Comments";
-//import FavoriteBorderOutlinedIcon from '@material-ui/icons/FavoriteBorderOutlined';
-// import { Icon } from '@material-ui/core';
-// import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
-
-
-
 
 const Feed = props => {
   return (
