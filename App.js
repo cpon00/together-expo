@@ -53,7 +53,6 @@ function MyTabs() {
           ),
         }}
       />
-
       {/* <Tab.Screen
         name="Notifications"
         component={Notifications}
@@ -85,6 +84,7 @@ function MyTabs() {
               color={color}
               size={size}
             />
+            <MaterialCommunityIcons name="plus-circle" color={color} size={size} />
           ),
         }}
       />
