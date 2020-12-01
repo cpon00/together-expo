@@ -16,6 +16,7 @@
     "@react-navigation/bottom-tabs": "^5.11.1",
     "@react-navigation/native": "^5.8.9",
     "eslint": "^7.14.0",
+    "expo": "^39.0.5",
     "expo": "~39.0.2",
     "expo-image-picker": "~9.1.1",
     "expo-status-bar": "~1.0.2",
@@ -27,10 +28,24 @@
     "react-native-reanimated": "~1.13.0",
     "react-native-safe-area-context": "3.1.4",
     "react-native-screens": "~2.10.1",
-    "react-native-web": "~0.13.12"
+    "react-native-web": "~0.13.12",
+    "expo-image-picker": "~9.1.1"
   },
   "devDependencies": {
     "@babel/core": "~7.9.0"
   },
-  "private": true
+  "private": true,
+  "name": "together-expo",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpon00/together-expo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpon00/together-expo/issues"
+  },
+  "homepage": "https://github.com/cpon00/together-expo#readme",
+  "description": ""
 }

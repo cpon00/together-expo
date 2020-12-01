@@ -1,4 +1,8 @@
 import React from 'react'
+import { View, Text, StyleSheet, Image, Button } from 'react-native'
+// import React, { Component } from 'react'
+import { Card } from 'react-native-elements'
+import { Component } from 'react'
 import { View, Text, Image, TouchableOpacity } from 'react-native'
 import { Card } from 'react-native-elements'
 import styles from './styles'

@@ -2,7 +2,20 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   default: {
-    flex: 1
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  searchBar: {
+    flexGrow: 1,
+    margin: 20,
+    borderColor: 'black',
+    borderWidth: 1,
+    borderRadius: 4,
+    height: '10%',
+    width: '90%',
+    justifyContent: "center",
+    alignItems: "center",
   },
   content: {
     // backgroundColor: "#fff9d6",
@@ -45,12 +58,14 @@ const styles = StyleSheet.create({
 
   },
   communities: {
-    width: 180,
-    height: 220,
+    borderRadius: 10,
+    flexGrow: 1,
+    width: 100,
+    height: 200,
     borderWidth: 2,
-    borderColor: "red",
-    resizeMode: "contain",
-    margin: 4,
+    resizeMode: "cover",
+    margin: 5,
+    justifyContent: 'center'
   },
 
   comments: {
